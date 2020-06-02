@@ -46,22 +46,17 @@ function getResult {
     param (
         $lockedFiles
     )
-    #services
-    $service = Get-WmiObject win32_service
-    $servicePath = Get-WmiObject win32_service | select PathName | Sort-Object PathName -Unique
     $z = foreach($lockedFile in $lockedFiles) { 
         "`n------------------------------------`n" + $lockedFile  + "`n------------------------------------"
         Get-Process | foreach{
+
             #değişkenleri dönüştürdü
             $processVar = $_;$_.Modules | foreach{
                 if($_.FileName -eq $lockedFile){
-                    $isService = $False
-                    $serviceName = ""
-                    $processPath = $processVar | select * | select Path
-                    if($servicePath -like "*$($processPath.Path)*"){
-                        $isService = $true
-                        $serviceName = $processPath.Path -replace '.*\\'
-                    }
+ 
+                    #process servis mi ona bakıyor.
+                    $serviceName = Get-WmiObject win32_service | ? { $_.ProcessId -like "*$($processVar.id)*" } | select -ExpandProperty Name
+                    
                    
                     $processVar.Name + " PID:" + $processVar.id + " Service Name: " + $serviceName + "`n"
                 }
@@ -81,7 +76,7 @@ $lockedFiles = getDll($x)
 
 
 
-getResult($lockedFiles) | Out-File -FilePath .\output.txt
+getResult($lockedFiles) | Out-File -FilePath .\outpuadt1.txt
 #sonucu yazdırıyor
 
 
@@ -89,6 +84,6 @@ getResult($lockedFiles) | Out-File -FilePath .\output.txt
 #Get-WmiObject win32_service | select -First 2 | select *
 #Get-Process | select -First 1 | select * pathnameler eşleşicek
 
-#$service =Get-WmiObject win32_service | select PathName | Sort-Object PathName -Unique
-#$process = Get-Process | select Path | sort Path -Unique
-#$process | where{$service -like "*$($_.Path)*"  }
+
+
+#/ sonrasını alıyor $processPath.Path -replace '.*\\'
