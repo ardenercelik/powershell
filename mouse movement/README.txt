@@ -1,0 +1,1 @@
+first exec get mouse pos than change the x y variables in mouse.ps1

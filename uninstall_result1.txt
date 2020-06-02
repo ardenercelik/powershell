@@ -1,0 +1,300 @@
+Checking for required files and bootstrapping ...
+Please wait ...
+14 File(s) copied
+611 File(s) copied
+        1 file(s) copied.
+        1 file(s) copied.
+Location of logs C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-23-22\logs\
+
+############ ORACLE DEINSTALL & DECONFIG TOOL START ############
+
+
+######################## CHECK OPERATION START ########################
+Install check configuration START
+
+
+Checking for existence of the Oracle home location C:\Oracle\64\product\11.2.0\client_1
+Oracle Home type selected for de-install is: CLIENT
+Oracle Base selected for de-install is: C:\Oracle\64
+Checking for existence of central inventory location C:\Program Files\Oracle\Inventory
+
+Install check configuration END
+
+Checking Windows and .NET products configuration START
+
+
+The following Windows and .NET products will be deconfigured from the Oracle home : asp.net,odp.net,ntoledb
+
+Checking Windows and .NET products configuration END
+
+
+Network Configuration check config START
+
+Network de-configuration trace file location: C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-23-22\logs\netdc_chec
+k5201077341372185087.log
+
+Network Configuration check config END
+
+
+######################### CHECK OPERATION END #########################
+
+
+####################### CHECK OPERATION SUMMARY #######################
+Oracle Home selected for de-install is: C:\Oracle\64\product\11.2.0\client_1
+Inventory Location where the Oracle home registered is: C:\Program Files\Oracle\Inventory
+The following Windows and .NET products will be deconfigured from the Oracle home : asp.net,odp.net,ntoledb
+A log of this session will be written to: 'C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-23-22\logs\deinstall_dec
+onfig2020-05-14_04-25-05-AM.out'
+Any error messages from this session will be written to: 'C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-23-22\log
+s\deinstall_deconfig2020-05-14_04-25-05-AM.err'
+
+############# ORACLE DEINSTALL & DECONFIG TOOL END #############
+
+        1 dir(s) moved.
+        1 dir(s) moved.
+        1 dir(s) moved.
+Checking for required files and bootstrapping ...
+Please wait ...
+14 File(s) copied
+611 File(s) copied
+        1 file(s) copied.
+        1 file(s) copied.
+Location of logs C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\logs\
+
+############ ORACLE DEINSTALL & DECONFIG TOOL START ############
+
+Using properties file C:\Users\100054\AppData\Local\Temp\3\ora_uninstall\deinstall_OraClient11g_home1.rsp
+
+######################## CHECK OPERATION START ########################
+Install check configuration START
+
+
+Checking for existence of the Oracle home location C:\Oracle\64\product\11.2.0\client_1
+Oracle Home type selected for de-install is: CLIENT
+Oracle Base selected for de-install is: C:\Oracle\64
+Checking for existence of central inventory location C:\Program Files\Oracle\Inventory
+
+Install check configuration END
+
+Checking Windows and .NET products configuration START
+
+
+The following Windows and .NET products will be deconfigured from the Oracle home : asp.net,odp.net,ntoledb
+
+Checking Windows and .NET products configuration END
+
+
+Network Configuration check config START
+
+Network de-configuration trace file location: C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-23-22\logs\netdc_chec
+k7473776423920038558.log
+
+Network Configuration check config END
+
+
+######################### CHECK OPERATION END #########################
+
+
+####################### CHECK OPERATION SUMMARY #######################
+Oracle Home selected for de-install is: C:\Oracle\64\product\11.2.0\client_1
+Inventory Location where the Oracle home registered is: C:\Program Files\Oracle\Inventory
+The following Windows and .NET products will be deconfigured from the Oracle home : asp.net,odp.net,ntoledb
+A log of this session will be written to: 'C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\logs\deinstall_dec
+onfig2020-05-14_04-25-31-AM.out'
+Any error messages from this session will be written to: 'C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\log
+s\deinstall_deconfig2020-05-14_04-25-31-AM.err'
+
+######################## CLEAN OPERATION START ########################
+
+Network Configuration clean config START
+
+Network de-configuration trace file location: C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-23-22\logs\netdc_clea
+n6841751434261853557.log
+
+De-configuring Naming Methods configuration file...
+Naming Methods configuration file de-configured successfully.
+
+De-configuring Local Net Service Names configuration file...
+Local Net Service Names configuration file de-configured successfully.
+
+De-configuring backup files...
+Backup files de-configured successfully.
+
+The network configuration has been cleaned up successfully.
+
+Network Configuration clean config END
+
+Removing Windows and .NET products configuration START
+
+
+Removing Windows and .NET products configuration END
+Oracle Universal Installer clean START
+
+Detach Oracle home 'C:\Oracle\64\product\11.2.0\client_1' from the central inventory on the local node : Done
+
+Failed to delete the file 'C:\Oracle\64\product\11.2.0\client_1\BIN\oci.dll'. The file is in use.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1\BIN'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1'. The directory is not empty.
+Delete directory 'C:\Oracle\64\product\11.2.0\client_1' on the local node : Failed <<<<
+
+Delete directory 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle - OraClient11g_home1' on the local node :
+Done
+
+Removing oracle home 'C:\Oracle\64\product\11.2.0\client_1' from PATH variable on the local node : Done
+
+Delete directory 'C:\Program Files\Oracle\Inventory' on the local node : Done
+
+Delete directory 'C:\Program Files\Oracle' on the local node : Done
+
+Delete Registry key 'HKEY_LOCAL_MACHINE\Software\Oracle\inst_loc' on the local node : Done
+
+Failed to delete the file 'C:\Oracle\64\product\11.2.0\client_1\BIN\oci.dll'. The file is in use.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1\BIN'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product'. The directory is not empty.
+Failed to delete the file 'C:\Oracle\64\product\11.2.0\client_1\BIN\oci.dll'. The file is in use.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1\BIN'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64'. The directory is not empty.
+Delete directory 'C:\Oracle\64' on the local node : Failed <<<<
+
+Oracle Universal Installer cleanup completed with errors.
+
+Oracle Universal Installer clean END
+
+
+Oracle install clean START
+
+
+Oracle install clean END
+
+Moved default properties file C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\response\deinstall_OraClient11g
+_home1.rsp as C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\response\deinstall_OraClient11g_home1.rsp2
+
+######################### CLEAN OPERATION END #########################
+
+
+####################### CLEAN OPERATION SUMMARY #######################
+Removed asp.net configuration
+Removed odp.net configuration
+Removed ntoledb configuration
+Successfully detached Oracle home 'C:\Oracle\64\product\11.2.0\client_1' from the central inventory on the local node.
+Failed to delete directory 'C:\Oracle\64\product\11.2.0\client_1' on the local node.
+Successfully deleted directory 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle - OraClient11g_home1' on the
+ local node.
+Successfully removed oracle home 'C:\Oracle\64\product\11.2.0\client_1' from PATH variable on the local node.
+Successfully deleted directory 'C:\Program Files\Oracle\Inventory' on the local node.
+Successfully deleted directory 'C:\Program Files\Oracle' on the local node.
+Successfully deleted Registry key 'HKEY_LOCAL_MACHINE\Software\Oracle\inst_loc' on the local node.
+Failed to delete directory 'C:\Oracle\64' on the local node.
+Oracle Universal Installer cleanup completed with errors.
+
+Oracle install successfully cleaned up the temporary directories.
+#######################################################################
+
+
+############# ORACLE DEINSTALL & DECONFIG TOOL END #############
+
+        1 dir(s) moved.
+        1 dir(s) moved.
+        1 dir(s) moved.
+Checking for required files and bootstrapping ...
+Please wait ...
+14 File(s) copied
+611 File(s) copied
+1 file(s) copied.
+1 file(s) copied.
+Location of logs C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\logs\
+############ ORACLE DEINSTALL & DECONFIG TOOL START ############
+Using properties file C:\Users\100054\AppData\Local\Temp\3\ora_uninstall\deinstall_OraClient11g_home1.rsp
+######################## CHECK OPERATION START ########################
+Install check configuration START
+Checking for existence of the Oracle home location C:\Oracle\64\product\11.2.0\client_1
+Oracle Home type selected for de-install is: CLIENT
+Oracle Base selected for de-install is: C:\Oracle\64
+Checking for existence of central inventory location C:\Program Files\Oracle\Inventory
+Install check configuration END
+Checking Windows and .NET products configuration START
+The following Windows and .NET products will be deconfigured from the Oracle home : asp.net,odp.net,ntoledb
+Checking Windows and .NET products configuration END
+Network Configuration check config START
+Network de-configuration trace file location: C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-23-22\logs\netdc_chec
+k7473776423920038558.log
+Network Configuration check config END
+######################### CHECK OPERATION END #########################
+####################### CHECK OPERATION SUMMARY #######################
+Oracle Home selected for de-install is: C:\Oracle\64\product\11.2.0\client_1
+Inventory Location where the Oracle home registered is: C:\Program Files\Oracle\Inventory
+The following Windows and .NET products will be deconfigured from the Oracle home : asp.net,odp.net,ntoledb
+A log of this session will be written to: 'C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\logs\deinstall_dec
+onfig2020-05-14_04-25-31-AM.out'
+Any error messages from this session will be written to: 'C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\log
+s\deinstall_deconfig2020-05-14_04-25-31-AM.err'
+######################## CLEAN OPERATION START ########################
+Network Configuration clean config START
+Network de-configuration trace file location: C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-23-22\logs\netdc_clea
+n6841751434261853557.log
+De-configuring Naming Methods configuration file...
+Naming Methods configuration file de-configured successfully.
+De-configuring Local Net Service Names configuration file...
+Local Net Service Names configuration file de-configured successfully.
+De-configuring backup files...
+Backup files de-configured successfully.
+The network configuration has been cleaned up successfully.
+Network Configuration clean config END
+Removing Windows and .NET products configuration START
+Removing Windows and .NET products configuration END
+Oracle Universal Installer clean START
+Detach Oracle home 'C:\Oracle\64\product\11.2.0\client_1' from the central inventory on the local node : Done
+Failed to delete the file 'C:\Oracle\64\product\11.2.0\client_1\BIN\oci.dll'. The file is in use.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1\BIN'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1'. The directory is not empty.
+Delete directory 'C:\Oracle\64\product\11.2.0\client_1' on the local node : Failed <<<<
+Delete directory 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle - OraClient11g_home1' on the local node :
+Done
+Removing oracle home 'C:\Oracle\64\product\11.2.0\client_1' from PATH variable on the local node : Done
+Delete directory 'C:\Program Files\Oracle\Inventory' on the local node : Done
+Delete directory 'C:\Program Files\Oracle' on the local node : Done
+Delete Registry key 'HKEY_LOCAL_MACHINE\Software\Oracle\inst_loc' on the local node : Done
+Failed to delete the file 'C:\Oracle\64\product\11.2.0\client_1\BIN\oci.dll'. The file is in use.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1\BIN'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product'. The directory is not empty.
+Failed to delete the file 'C:\Oracle\64\product\11.2.0\client_1\BIN\oci.dll'. The file is in use.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1\BIN'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0\client_1'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product\11.2.0'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64\product'. The directory is not empty.
+Failed to delete the directory 'C:\Oracle\64'. The directory is not empty.
+Delete directory 'C:\Oracle\64' on the local node : Failed <<<<
+Oracle Universal Installer cleanup completed with errors.
+Oracle Universal Installer clean END
+Oracle install clean START
+Oracle install clean END
+Moved default properties file C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\response\deinstall_OraClient11g
+_home1.rsp as C:\Users\100054\AppData\Local\Temp\3\OraDeinstall_11-25-17\response\deinstall_OraClient11g_home1.rsp2
+######################### CLEAN OPERATION END #########################
+####################### CLEAN OPERATION SUMMARY #######################
+Removed asp.net configuration
+Removed odp.net configuration
+Removed ntoledb configuration
+Successfully detached Oracle home 'C:\Oracle\64\product\11.2.0\client_1' from the central inventory on the local node.
+Failed to delete directory 'C:\Oracle\64\product\11.2.0\client_1' on the local node.
+Successfully deleted directory 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle - OraClient11g_home1' on the
+ local node.
+Successfully removed oracle home 'C:\Oracle\64\product\11.2.0\client_1' from PATH variable on the local node.
+Successfully deleted directory 'C:\Program Files\Oracle\Inventory' on the local node.
+Successfully deleted directory 'C:\Program Files\Oracle' on the local node.
+Successfully deleted Registry key 'HKEY_LOCAL_MACHINE\Software\Oracle\inst_loc' on the local node.
+Failed to delete directory 'C:\Oracle\64' on the local node.
+Oracle Universal Installer cleanup completed with errors.
+Oracle install successfully cleaned up the temporary directories.
+############# ORACLE DEINSTALL & DECONFIG TOOL END #############
+1 dir(s) moved.
+1 dir(s) moved.
+1 dir(s) moved.
+Failed to delete the file 'C:\windows\System32\profapi.dll'
