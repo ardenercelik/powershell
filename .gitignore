@@ -1,3 +1,1 @@
-*.txt
-!uninstall_result.txt
-!uninstall_result1.txt
+dll-process/
